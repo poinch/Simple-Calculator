@@ -42,10 +42,19 @@ function App() {
   }
 
   return (
-    <div className="max-w-md m-auto">
-      <p className="text-3xl text-center text-blue-500 mt-10">Calculator</p>
-      <Result result={result} />
-      <KeyPad onClick={handleClick} />
+    <div 
+      className="flex items-center bg-gradient-to-r from-indigo-200 to-pink-200 h-screen"
+    >
+      <div 
+        className="bg-gradient-to-r from-pink-200 to-indigo-200 border-gray-700 border-2 max-w-2xl m-auto rounded-3xl"
+      >
+        <div 
+          className="flex flex-col m-6 bg-gradient-to-r from-purple-200 to-purple-500 rounded-xl"
+        >
+          <Result result={result} />
+          <KeyPad onClick={handleClick} />
+        </div>
+      </div>
     </div>
   )
 }

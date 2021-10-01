@@ -1,6 +1,6 @@
 function KeyPad({ onClick }) {
   return (
-    <div>
+    <div className='grid grid-cols-4 p-5'>
       <button
         className='btn'
         type="button"

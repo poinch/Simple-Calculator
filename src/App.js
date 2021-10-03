@@ -43,13 +43,16 @@ function App() {
 
   return (
     <div 
-      className="flex items-center bg-gradient-to-r from-indigo-200 to-pink-200 h-screen"
+      className="flex flex-col items-center justify-center bg-gradient-to-r from-purple-500 to-red-700 h-screen"
     >
+      <h1 className="font-lucky text-center tracking-widest text-4xl mb-10">
+        Simple Calculator
+      </h1>
       <div 
-        className="bg-gradient-to-r from-pink-200 to-indigo-200 border-gray-700 border-2 max-w-2xl m-auto rounded-3xl"
+        className="bg-black max-w-2xl rounded-3xl m-3"
       >
         <div 
-          className="flex flex-col m-6 bg-gradient-to-r from-purple-200 to-purple-500 rounded-xl"
+          className="flex flex-col m-5 bg-gradient-to-r from-purple-200 to-purple-500 rounded-xl"
         >
           <Result result={result} />
           <KeyPad onClick={handleClick} />

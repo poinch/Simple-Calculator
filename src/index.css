@@ -4,6 +4,6 @@
 
 @layer components {
   .btn {
-    @apply bg-gray-300 w-16 h-12 m-1 text-lg rounded-full shadow-lg hover:scale-105 transform duration-150 ease-out outline-none;
+    @apply bg-gray-300 border-black border-2 w-16 h-12 m-1 text-lg rounded-full shadow-lg hover:scale-105 active:scale-95 transform duration-150 ease-out outline-none;
   }
 }

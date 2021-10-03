@@ -1,8 +1,8 @@
 function KeyPad({ onClick }) {
   return (
-    <div className='grid grid-cols-4 p-5'>
+    <div className="grid grid-cols-4 p-5">
       <button
-        className='btn'
+        className="btn"
         type="button"
         name="("
         onClick={(e) => onClick(e.currentTarget.name)}
@@ -10,7 +10,7 @@ function KeyPad({ onClick }) {
         (
       </button>
       <button
-        className='btn'
+        className="btn"
         type="button"
         name="CE"
         onClick={(e) => onClick(e.currentTarget.name)}
@@ -18,7 +18,7 @@ function KeyPad({ onClick }) {
         CE
       </button>
       <button
-        className='btn'
+        className="btn"
         type="button"
         name=")"
         onClick={(e) => onClick(e.currentTarget.name)}
@@ -26,7 +26,7 @@ function KeyPad({ onClick }) {
         )
       </button>
       <button
-        className='btn'
+        className="btn"
         type="button"
         name="C"
         onClick={(e) => onClick(e.currentTarget.name)}
@@ -34,7 +34,7 @@ function KeyPad({ onClick }) {
         C
       </button>
       <button
-        className='btn'
+        className="btn"
         type="button"
         name="1"
         onClick={(e) => onClick(e.currentTarget.name)}
@@ -42,7 +42,7 @@ function KeyPad({ onClick }) {
         1
       </button>
       <button
-        className='btn'
+        className="btn"
         type="button"
         name="2"
         onClick={(e) => onClick(e.currentTarget.name)}
@@ -50,7 +50,7 @@ function KeyPad({ onClick }) {
         2
       </button>
       <button
-        className='btn'
+        className="btn"
         type="button"
         name="3"
         onClick={(e) => onClick(e.currentTarget.name)}
@@ -58,7 +58,7 @@ function KeyPad({ onClick }) {
         3
       </button>
       <button
-        className='btn'
+        className="btn"
         type="button"
         name="+"
         onClick={(e) => onClick(e.currentTarget.name)}
@@ -66,7 +66,7 @@ function KeyPad({ onClick }) {
         +
       </button>
       <button
-        className='btn'
+        className="btn"
         type="button"
         name="4"
         onClick={(e) => onClick(e.currentTarget.name)}
@@ -74,7 +74,7 @@ function KeyPad({ onClick }) {
         4
       </button>
       <button
-        className='btn'
+        className="btn"
         type="button"
         name="5"
         onClick={(e) => onClick(e.currentTarget.name)}
@@ -82,7 +82,7 @@ function KeyPad({ onClick }) {
         5
       </button>
       <button
-        className='btn'
+        className="btn"
         type="button"
         name="6"
         onClick={(e) => onClick(e.currentTarget.name)}
@@ -90,7 +90,7 @@ function KeyPad({ onClick }) {
         6
       </button>
       <button
-        className='btn'
+        className="btn"
         type="button"
         name="-"
         onClick={(e) => onClick(e.currentTarget.name)}
@@ -98,7 +98,7 @@ function KeyPad({ onClick }) {
         -
       </button>
       <button
-        className='btn'
+        className="btn"
         type="button"
         name="7"
         onClick={(e) => onClick(e.currentTarget.name)}
@@ -106,7 +106,7 @@ function KeyPad({ onClick }) {
         7
       </button>
       <button
-        className='btn'
+        className="btn"
         type="button"
         name="8"
         onClick={(e) => onClick(e.currentTarget.name)}
@@ -114,7 +114,7 @@ function KeyPad({ onClick }) {
         8
       </button>
       <button
-        className='btn'
+        className="btn"
         type="button"
         name="9"
         onClick={(e) => onClick(e.currentTarget.name)}
@@ -122,7 +122,7 @@ function KeyPad({ onClick }) {
         9
       </button>
       <button
-        className='btn'
+        className="btn"
         type="button"
         name="*"
         onClick={(e) => onClick(e.currentTarget.name)}
@@ -130,7 +130,7 @@ function KeyPad({ onClick }) {
         x
       </button>
       <button
-        className='btn'
+        className="btn"
         type="button"
         name="."
         onClick={(e) => onClick(e.currentTarget.name)}
@@ -138,7 +138,7 @@ function KeyPad({ onClick }) {
         .
       </button>
       <button
-        className='btn'
+        className="btn"
         type="button"
         name="0"
         onClick={(e) => onClick(e.currentTarget.name)}
@@ -146,7 +146,7 @@ function KeyPad({ onClick }) {
         0
       </button>
       <button
-        className='btn'
+        className="btn"
         type="button"
         name="="
         onClick={(e) => onClick(e.currentTarget.name)}
@@ -154,7 +154,7 @@ function KeyPad({ onClick }) {
         =
       </button>
       <button
-        className='btn'
+        className="btn"
         type="button"
         name="/"
         onClick={(e) => onClick(e.currentTarget.name)}
